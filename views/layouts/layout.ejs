@@ -7,10 +7,7 @@
     <title>Library-app</title>
   </head>
   <body>
-    before
-    <br />
-    <%- body%>
-    <br />
-    after
+    <%-include("../partials/header.ejs")-%> <%-
+    include("../partials/errorMessage.ejs")-%> <%- body%>
   </body>
 </html>
